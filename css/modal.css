@@ -24,6 +24,14 @@
     min-height: 576px;
     background-color: teal;
     /* #FCFCFC; */
-
-   
+  
+}
+.btn-close{
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 24px;
+    height: 24px;
+}
+.btn-close .btn-symbol{
+    padding: 8px;
 }
