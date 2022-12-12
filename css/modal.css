@@ -27,11 +27,13 @@
   
 }
 .btn-close{
-    border-radius: 50%;
+    display: inline-block;
+    
     background-color: aliceblue;
     width: 24px;
     height: 24px;
 }
 .btn-close .btn-symbol{
+    border-radius: 70%;
     padding: 8px;
 }

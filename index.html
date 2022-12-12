@@ -15,7 +15,8 @@
         <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/svg.css" />
-    <link rel="stylesheet" href="./modal.css">
+    <link rel="stylesheet" href=" /modal.css" />
+    
 </head>
 <body>
     <header class="header">
@@ -39,14 +40,8 @@
        <section class="hero-section">
             <div class="title-content container">
                 <h1 class="main-title-item">Effective Solutions <br> for Your Business</h1>
-                <button data-modal-open type="button" class="btn">Order Service</button>
-                <!-- Modal -->
-                <div class="backdrop is-hidden">
-                    <div class="modal">
-                        <button class="btn-close"><span class="bnt-symbol">X</span></button>
-                    </div>
-                </div>
-
+                <button data-modal-open aria-label="Open service" type="button" class="btn">Order Service</button>
+               
             </div>   
         </section>
 
@@ -392,7 +387,19 @@
                 </div>   
             </div>
         </footer>
+
+
                  <!-- modal window -->
         <script src="./modal.js"></script>
+        <!-- Modal Window-->
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button data-modal-close aria-label="Close service" type="button" class="btn-close">
+                   <svg class="icon-close" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-close"></use>
+                   </svg>
+                </button>
+            </div>
+        </div>
 </body>
 </html>
