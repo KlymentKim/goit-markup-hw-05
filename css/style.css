@@ -468,10 +468,10 @@ body{
 
 
 .backdrop.is-hidden{
-    /* opacity: 0; */
+    opacity: 0; 
     /* не действует ни какие собітія */
-    /* pointer-events: none; */
-    /* visibility: hidden; */
+    pointer-events: none;
+    visibility: hidden;
 }
 
 .modal{
