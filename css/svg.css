@@ -205,6 +205,7 @@
     /* #E7E9FC */
 }
 
-.btn-close:hover .icon-close{
+.btn-close:hover .icon-close,
+.icon-close:focus .icon-close{
     fill:red;
 }
