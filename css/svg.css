@@ -179,24 +179,32 @@
 
 .btn-close {
     position: absolute;
+    top:10px;
+    right: 10px;
     padding: 0;
     background-color: transparent;
-    border-radius: 60%;
+    border-radius: 50%;
     width: 24px;
     height: 24px;
     cursor: pointer;
+    
 
     display: flex;
     justify-content: center;
     align-items:center ;
-
+    
 }
 .icon-close{
     width: 8px;
     height: 8px;
+    
+}
+.btn-close:hover,
+.btn-close:focus{
+    border-color:red ;
+    /* #E7E9FC */
 }
 
-/* .btn-close .btn-symbol {
-    border-radius: 70%;
-    padding: 8px;
-}  */
+.btn-close:hover .icon-close{
+    fill:red;
+}
