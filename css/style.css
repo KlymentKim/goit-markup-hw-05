@@ -454,7 +454,7 @@ body{
 }
 
 
-                   /* MODAL/ */
+                   /* MODAL WINDOW/ */
 .backdrop{
     position: fixed;
     top: 0;
@@ -466,14 +466,12 @@ body{
 
 }
 
-
 .backdrop.is-hidden{
     opacity: 0; 
     /* не действует ни какие собітія */
     pointer-events: none;
     visibility: hidden;
 }
-
 .modal{
     position: absolute;
 
@@ -489,8 +487,6 @@ body{
     border-radius: 4px;
  
 }
-
-
 .btn-close {
     position: absolute;
     
@@ -529,3 +525,5 @@ body{
 .icon-close:focus .icon-close{
     fill:red;
 }
+
+  /* MODAL WINDOW/ */
