@@ -41,8 +41,8 @@
             <div class="portfolio-btn-wrapper container">
                 <h1 class="visually-hidden">Portfolio</h1>
                 <ul class="portfolio-content-items">
-                    <li class="btn-item"><button class="portfolio-btn-items" type="button">All</button></li>
-                    <li class="btn-item"><button class="portfolio-btn-items" type="button">Web Site</button></li>
+                    <li class="btn-item"><button class="portfolio-btn-items"  data-modal.js-open>All</button></li>
+                    <li class="btn-item"><button class="portfolio-btn-items" type="button" data-modal-open>Web Site</button></li>
                     <li class="btn-item"><button class="portfolio-btn-items" type="button">App</button></li>
                     <li class="btn-item"><button class="portfolio-btn-items" type="button">Desing</button></li>
                     <li class="btn-item"><button class="portfolio-btn-items" type="button">Marketing</button></li>
@@ -198,6 +198,20 @@
                     </ul>
                 </div>
             </div>
+           
     </footer>
+
+
+    <!-- Modal Window-->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button aria-label="Close service" type="button" class="btn-close" data-modal-close>
+                <svg class="icon-close" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
 </body>
 </html>
