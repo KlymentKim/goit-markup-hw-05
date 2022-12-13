@@ -369,7 +369,10 @@ body{
     /* li */
 .portfolio-img{
     cursor: pointer;
-    background: var(--primary-color-baground);  
+    background: var(--primary-color-baground);
+    
+    position: relative;  
+    display: block;
 }
 
 .portfolio-description{
@@ -454,3 +457,19 @@ body{
    align-items: stretch;
   
 }
+
+
+   .card link {
+       position: relative;
+       /* display: block; */
+   }
+
+   .overlay {
+       position: absolute;
+       background-color: #4D5AE5;
+       padding: 15px;
+       left: 0;
+       bottom: 0;
+       outline: 1px solid tomato;
+
+   }
