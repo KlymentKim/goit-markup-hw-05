@@ -456,16 +456,16 @@ body{
 }
 
      /* Overlay Button  */
-     .card link {
-        position: relative;
-        display: block;
+.card link {
+    position: relative;
+    display: block;
           
 }
-    .wrapper-heigth-position{
-        position: relative;
-        display: block;
+.wrapper-heigth-position{
+    position: relative;
+    display: block;
     
-        overflow: hidden;
+    overflow: hidden;
 }
     
 .overlay {
