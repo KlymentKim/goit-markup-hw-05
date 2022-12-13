@@ -367,7 +367,7 @@ body{
     
 }
     /* li */
-.portfolio-img{
+.portfolio-card-img{
     cursor: pointer;
     background: var(--primary-color-baground);
     
@@ -386,10 +386,10 @@ body{
 }
  
 /* відступи між блоками */
-.portfolio-img:not(:nth-child(3n)){
+.portfolio-card-img:not(:nth-child(3n)){
     margin-right: 24px;
 }
-.portfolio-img:not(:nth-last-child(-n+3)){
+.portfolio-card-img:not(:nth-last-child(-n+3)){
     margin-bottom: 48px;
 }
 /* .card > .bankingApp{
@@ -473,17 +473,20 @@ body{
 
 .overlay {
        position: absolute;
-       background-color: #4D5AE5;
+       background-color: rgba(0, 0, 0, 0.2);
        padding: 15px;
        left: 0;
        bottom: 0;
 
        transform: translate(0, 100%);
 
-       outline: 1px solid tomato;
+      
        color: #F4F4FD;
        width: 100%;
        height: 100%;
        font-size: 16px;
        overflow: auto;
 }
+ .portfolio-card-img:hover .overlay {
+    transform: translate(0,0);
+ }
