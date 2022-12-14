@@ -498,7 +498,7 @@ body{
 }
 
 /* ідкреслення посилання поточної сторінки */
-.header-menu-list{
+.buttom-line-page{
     position: relative;
 }
 .current::after{
@@ -508,7 +508,7 @@ body{
     position: absolute;
     top: 43px;
     bottom: 0px;
-    width: 19%;
+    width: 100%;
     height: 4px;
     display: block;
     background-color: #4D5AE5;
