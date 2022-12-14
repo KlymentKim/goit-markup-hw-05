@@ -48,15 +48,12 @@ button{
     --padding-top-set-img: 32px;
     --margin-bottom-set-img: 8px;
 
-    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
 }
-
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--primary-color-baground);
-    
+    background-color: var(--primary-color-baground);  
 }
 .visually-hidden {
     /* position: absolute;
@@ -85,7 +82,7 @@ body{
     padding-bottom: 120px;
 }
 
-            /* HEADER CONTENT  */
+            /* HEADER Section  */
 .header{
     padding: 24px 24px;     
 }
@@ -157,12 +154,8 @@ body{
     text-transform: uppercase;
 }
 
-                  /* MAIN SECTION  */
+            /* MAIN SECTION  */
     /* < !-- Header Tittle --> */
-
-
-
-
     
 .title-content{
     text-align: center;
@@ -196,7 +189,6 @@ body{
 
     padding: 16px 32px;
     border-radius: 4px;
-    
 }
 .btn:hover{
     background-color: var(--color-btn-hover);
@@ -231,7 +223,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
- 
     /* margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap)); */
 
@@ -246,7 +237,6 @@ body{
     /* flex-basis: calc(100% / 4 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap); */
-
 }
 .employee-card:nth-child(-n+4){
     margin-right: 24px;
@@ -258,7 +248,7 @@ body{
 .h3-name{
     margin-bottom: var(--margin-bottom-set-img);
 }
-                /* Header menu */
+                /* Header Section */
 .nav-link,
 .portfolio-nav-items{
     font-weight: 500;
@@ -387,7 +377,7 @@ body{
     
 }
  
-/* відступи між блоками */
+        /* відступи між блоками */
 .portfolio-card-img:not(:nth-child(3n)){
     margin-right: 24px;
 }
@@ -409,7 +399,7 @@ body{
     
 }
 
-            /* Customers */
+            /* Customers Section */
 .customers-title{
     font-weight: 700;
     font-size: 36px;
