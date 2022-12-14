@@ -511,14 +511,14 @@ body{
     background-color: #4D5AE5;
     border-radius: 10%;
     /* opacity: 0; */
+    
     transform: scaleX(0);
-
     transition: transform 250ms var(--timing-function);
    
 }
 .nav-link:hover::after{
     /* opacity: 100%; */
-    transform: scaleX(1);
-}
+     transform: scaleX(1); 
+} 
 
 
