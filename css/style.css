@@ -499,13 +499,14 @@ body{
 .header-menu-list{
     position: relative;
 }
-.nav-link::after{
+.page-studio + ::after,
+.curent-page-portfolio::after{
     content: '';
 
     position: absolute;
     left: 0;
     bottom: -25px;
-    display: block;
+    /* display: block; */
     width: 19%;
     height: 4px;    
     background-color: #4D5AE5;
@@ -516,7 +517,8 @@ body{
     transition: transform 250ms var(--timing-function);
    
 }
-.nav-link:hover::after{
+.curent-page-studio::after,
+.curent-page-portfolio::after{
     /* opacity: 100%; */
      transform: scaleX(1); 
 } 
