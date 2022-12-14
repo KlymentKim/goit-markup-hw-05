@@ -1,13 +1,14 @@
      /* MODAL WINDOW/ */
 .backdrop {
      position: fixed;
-    top: 0;
+     top: 0;
      left: 0;
      z-index: 100;
      width: 100%;
      height: 100%;
-     background-color: rgba(255, 255, 255, 0.1);
-    transition: opacity 255ms;
+     background-color: rgba(46, 47, 66, 0.5);
+    
+     transition: opacity 255ms;
 
  }
 .backdrop.is-hidden {
@@ -15,6 +16,7 @@
          /* не действует ни какие собітія */
     pointer-events: none;
     visibility: hidden;
+    position: absolute;
 }
 
 .modal {
@@ -65,7 +67,7 @@
 }
 .btn-close:hover .icon-close,
 .icon-close:focus .icon-close {
-         fill: #4D5AE5;
+    fill: #4D5AE5;
 }
 
      /* MODAL WINDOW PORTFOLIO/ */

@@ -17,7 +17,7 @@
 
     /* opacity: 0; */
     transform: scaleX(0);
-    transition: transform 250ms var(--timing-delay);
+    transition: transform 250ms var(--timing-function);
 }
 .current::after{
     /* opacity: 1; */

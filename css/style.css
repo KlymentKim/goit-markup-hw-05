@@ -48,7 +48,7 @@ button{
     --padding-top-set-img: 32px;
     --margin-bottom-set-img: 8px;
 
-    --timing-delay:cubic-bezier(0.4, 0, 0.2, 1);
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -455,7 +455,6 @@ body{
 .wrapper-list-social-media{
    display: flex;
    align-items: stretch;
-  
 }
 
 
