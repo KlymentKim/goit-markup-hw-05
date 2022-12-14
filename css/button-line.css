@@ -4,7 +4,6 @@
 }
 .current::after{
     content: '';
-
     
     position: absolute;
     top: 43px;
