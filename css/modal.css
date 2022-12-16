@@ -70,9 +70,10 @@
 
      /* MODAL WINDOW PORTFOLIO/ */
 .modal-title{
-    /* position: relative; */
+   display: flex;
+   flex-direction: column;
 }
-.modal-title .title-text{
+.title-text{
     position: absolute;
     font-weight: 600;
     font-size: 16px;
