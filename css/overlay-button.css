@@ -35,6 +35,6 @@
 .card:hover .overlay,
 .card:focus .overlay {
     transform: translate(0,0);
-    transition: transform 250ms var(--timing-functionn);
+    transition: transform 250ms var(--timing-function);
 
 }
