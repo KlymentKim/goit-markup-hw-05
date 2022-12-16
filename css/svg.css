@@ -22,7 +22,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    
 }
 .list-icons{
     display: flex;
@@ -30,8 +29,7 @@
     margin-bottom: 8px;
     background-color: var(--bg-color-icons);
     /* width: 264px; */
-    height: 112px;
-    
+    height: 112px; 
 }
 .list-icons:nth-child(3n){
     margin-right: 0;
@@ -44,7 +42,7 @@
 }
 
 
-    /* Employees */
+     /* Employees Section */
 .social-wrapper-icons{
     display: flex;
     justify-content: center;
@@ -52,10 +50,8 @@
     gap: 24px;
 
     margin-top:  8px;
-    margin-bottom: 32px;
-    
+    margin-bottom: 32px;   
 }
-
 .social-link-employee{
     width: 40px;
     height: 40px;
@@ -72,7 +68,7 @@
     background-color: var(--bg-color-social-icons);
 }
 
-    /* Customers */
+    /* Customers Section */
 .wrapper-panel-icons{
     display: flex;
     gap: 24px;
@@ -88,7 +84,6 @@
     width: 168px;
     height: 88px;
     padding: 16px 32px;
-   
 }
 .item-icon-rectangle:hover,
 .item-icon-rectangle:focus{

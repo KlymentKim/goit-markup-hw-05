@@ -14,19 +14,25 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/svg.css" />
+    <link rel="stylesheet" href="./css/button-line.css" />
+    <link rel="stylesheet" href="./css/overlay-button.css">
+   
    
 </head>
 <body>
     <header class="header">
-        <div class="curent-page-portfolio">
-            <a href="./portfolio.html" class="page-portfolio"></a>
-        </div>
         <div class="container header-div line-bottom">
             <nav class="main-menu container-menu">
                 <a href="./index.html" class="main-logo1 link">WEB<span class="main-logo2">STUDIO</span></a>
                 <ul class="header-menu-list">
-                    <li class="menu-item"><a href="./studio.html" class="nav-link link">Studio</a></li>
-                    <li class="menu-item"><a href="./portfolio.html" class="nav-link link">Portfolio</a></li>
+                    <li class="menu-item"><a href="./index.html" class="nav-link link">Studio</a></li>
+                    
+                    <li class="menu-item">
+                        <div class="buttom-line-page">
+                            <a href="./portfolio.html" class="nav-link link current">Portfolio</a>
+                        </div>
+                    </li>
+
                     <li class="menu-item"><a href="./contacts.html" class="nav-link link">Contacts</a></li>
                 </ul>
             </nav>
@@ -120,7 +126,18 @@
                     
                         <li class="portfolio-card-img">
                             <a class="card link">
+
+                            <div class="wrapper-heigth-position">
                                 <img src="./images/taxi-service.jpg" alt="taxi-service" width="360" height="300">
+                                <p class="overlay">
+                                    14 Stylish and User-Friendly App Design Concepts
+                                    · Task Manager App
+                                    · Calorie Tracker App
+                                    · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App
+                                </p>
+                            </div>
+
                                 <div class="portfolio-description">
                                     <h2 class="h2-type-app">Taxi Service</h2>
                                     <p class="portfolio-text-about">Marketing</p>
@@ -130,17 +147,36 @@
                         
                         <li class="portfolio-card-img">
                             <a class="card link">
-                                <img src="./images/screen.jpg" alt="screen" width="360" height="300">
-                                <div class="portfolio-description">
-                                    <h2 class="h2-type-app">Screen Illustrations</h2>
-                                    <p class="portfolio-text-about">Design</p>
+                                <div class="wrapper-heigth-position">
+                                    <img src="./images/screen.jpg" alt="screen" width="360" height="300">
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts
+                                        · Task Manager App
+                                        · Calorie Tracker App
+                                        · Exotic Fruit Ecommerce App
+                                        · Cloud Storage App
+                                    </p>
                                 </div>
+                                
+                                    <div class="portfolio-description">
+                                        <h2 class="h2-type-app">Screen Illustrations</h2>
+                                        <p class="portfolio-text-about">Design</p>
+                                    </div>
                             </a>
                         </li>
 
                         <li class="portfolio-card-img">
                             <a class="card link">
+                            <div class="wrapper-heigth-position">
                                 <img src="./images/online-courses.jpg" alt="online-courses" width="360" height="300">
+                                <p class="overlay">
+                                    14 Stylish and User-Friendly App Design Concepts
+                                    · Task Manager App
+                                    · Calorie Tracker App
+                                    · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App
+                                </p>
+                            </div>
                                 <div class="portfolio-description">
                                     <h2 class="h2-type-app">Online Courses</h2>
                                     <p class="portfolio-text-about">Marketing</p>
@@ -150,7 +186,16 @@
 
                         <li class="portfolio-card-img">
                             <a class="card link">
+                            <div class="wrapper-heigth-position">
                                 <img src="./images/instagram-stories.jpg" alt="instagram-stories" width="360" height="300">
+                                <p class="overlay">
+                                    14 Stylish and User-Friendly App Design Concepts
+                                    · Task Manager App
+                                    · Calorie Tracker App
+                                    · Exotic Fruit Ecommerce App
+                                    · Cloud Storage App
+                                </p>
+                            </div>
                                 <div class="portfolio-description">
                                     <h2 class="h2-type-app">Instagram Stories Concept</h2>
                                     <p class="portfolio-text-about">Design</p>
@@ -160,7 +205,16 @@
 
                         <li class="portfolio-card-img">
                             <a class="card">
-                                <img src="./images/organic-food.jpg" alt="organic-food.jpg" width="360" height="300">
+                                <div class="wrapper-heigth-position">
+                                    <img src="./images/organic-food.jpg" alt="organic-food.jpg" width="360" height="300">
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts
+                                        · Task Manager App
+                                        · Calorie Tracker App
+                                        · Exotic Fruit Ecommerce App
+                                        · Cloud Storage App
+                                    </p>
+                                </div>
                                 <div class="portfolio-description">
                                     <h2 class="h2-type-app">Organic Food</h2>
                                     <p class="portfolio-text-about">Web Site</p>
@@ -170,7 +224,17 @@
 
                         <li class="portfolio-card-img">
                             <a class="card">
+                            <div class="wrapper-heigth-position">
                                 <img src="./images/fresh-coffee.jpg" alt="fresh-coffee" width="360" height="300">
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts
+                                        · Task Manager App
+                                        · Calorie Tracker App
+                                        · Exotic Fruit Ecommerce App
+                                        · Cloud Storage App
+                                    </p>
+                            </div>
+                            
                                 <div class="portfolio-description">
                                     <h2 class="h2-type-app">Fresh Coffee</h2>
                                     <p class="portfolio-text-about">Web Site</p>
@@ -237,18 +301,5 @@
             </div>
            
     </footer>
-
-
-    <!-- Modal Window-->
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button aria-label="Close service" type="button" class="btn-close" data-modal-close>
-                <svg class="icon-close" width="24" height="24">
-                    <use href="./images/sprite.svg#icon-close"></use>
-                </svg>
-            </button>
-        </div>
-    </div>
-    <script src="./modal.js"></script>
 </body>
 </html>

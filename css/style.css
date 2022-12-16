@@ -47,16 +47,13 @@ button{
     --portfolio-img-set-gar: 24px;
     --padding-top-set-img: 32px;
     --margin-bottom-set-img: 8px;
-    
-    --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
 }
-
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--primary-color-baground);
-    
+    background-color: var(--primary-color-baground);  
 }
 .visually-hidden {
     /* position: absolute;
@@ -85,7 +82,7 @@ body{
     padding-bottom: 120px;
 }
 
-            /* HEADER CONTENT  */
+            /* HEADER Section  */
 .header{
     padding: 24px 24px;     
 }
@@ -157,12 +154,8 @@ body{
     text-transform: uppercase;
 }
 
-                  /* MAIN SECTION  */
+            /* MAIN SECTION  */
     /* < !-- Header Tittle --> */
-
-
-
-
     
 .title-content{
     text-align: center;
@@ -196,7 +189,6 @@ body{
 
     padding: 16px 32px;
     border-radius: 4px;
-    
 }
 .btn:hover{
     background-color: var(--color-btn-hover);
@@ -231,7 +223,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
- 
     /* margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap)); */
 
@@ -246,7 +237,6 @@ body{
     /* flex-basis: calc(100% / 4 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap); */
-
 }
 .employee-card:nth-child(-n+4){
     margin-right: 24px;
@@ -258,7 +248,7 @@ body{
 .h3-name{
     margin-bottom: var(--margin-bottom-set-img);
 }
-                /* Header menu */
+                /* Header Section */
 .nav-link,
 .portfolio-nav-items{
     font-weight: 500;
@@ -367,7 +357,6 @@ body{
 .portfolio-items-img{
     display: flex;
     flex-wrap: wrap;
-    
 }
     /* li */
 .portfolio-card-img{
@@ -377,10 +366,10 @@ body{
     position: relative;  
     display: block;
 }
-
+    /* рамка нижней части карточки */
 .portfolio-description{
     border: 0.5px solid #F4F4FD;
-}
+}  
 .portfolio-description:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -388,7 +377,7 @@ body{
     
 }
  
-/* відступи між блоками */
+        /* відступи між блоками */
 .portfolio-card-img:not(:nth-child(3n)){
     margin-right: 24px;
 }
@@ -410,7 +399,7 @@ body{
     
 }
 
-            /* Customers */
+            /* Customers Section */
 .customers-title{
     font-weight: 700;
     font-size: 36px;
@@ -452,75 +441,12 @@ body{
 }
 .wrapper-social-media{
     display: flex;
-
-
 }
 .wrapper-list-social-media{
    display: flex;
    align-items: stretch;
-  
 }
 
-     /* Overlay Button  */
-.card link {
-    position: relative;
-    display: block;
-      
-}
-.wrapper-heigth-position{
-    position: relative;
-    display: block;
 
-    overflow: hidden;
-}
-
-.overlay {
-       position: absolute;
-       background-color:rgba(77, 90, 229, 1);
-       padding: 15px;
-       left: 0;
-       bottom: 0;
-
-       transform: translate(0, 100%);
-       transition: transform 250ms var(--timing-function);
-      
-       color: #F4F4FD;
-       width: 100%;
-       height: 100%;
-       font-size: 16px;
-       overflow: auto;
-}
- .card:hover .overlay,
- .card:focus .overlay {
-    transform: translate(0,0);
- }
-    /* Нижнее подчеркивание в меню */
-
-.header-menu-list{
-    position: relative;
-}
-.page-studio + ::after,
-.curent-page-portfolio::after{
-    content: '';
-
-    position: absolute;
-    left: 0;
-    bottom: -25px;
-    /* display: block; */
-    width: 19%;
-    height: 4px;    
-    background-color: #4D5AE5;
-    border-radius: 10%;
-    /* opacity: 0; */
-    
-    transform: scaleX(0);
-    transition: transform 250ms var(--timing-function);
-   
-}
-.curent-page-studio::after,
-.curent-page-portfolio::after{
-    /* opacity: 100%; */
-     transform: scaleX(1); 
-} 
 
 
