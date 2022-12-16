@@ -32,7 +32,7 @@ button{
     cursor: pointer;
 }
 :root{
-    --primary-color-text:#2E2F42;
+    --primary-color-text:#2E2F42; 
     --primary-color-title:#2E2F42;
     --primary-color-baground:#FFFFFF;
     --primary-color-contact:#434455;
