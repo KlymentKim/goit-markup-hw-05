@@ -95,7 +95,10 @@
     letter-spacing: 0.01em;
     /* margin-bottom: 4px; */
 }
-.label-form > .label-name:not(:first-child){
+.label-form-name > .label-name:first-child{
+    margin-bottom: 4px;
+}
+.label-name:not(:first-child){
     margin-bottom: 8px;
 }
 .contact-form-input{
