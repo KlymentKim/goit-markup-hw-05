@@ -95,11 +95,14 @@
     letter-spacing: 0.01em;
     /* margin-bottom: 4px; */
 }
-.label-form-name > .label-name:first-child{
+.label-form-name>.label-name:first-child{
     margin-bottom: 4px;
 }
-.label-name:not(:first-child){
+.label-form-name:not(:first-child){
     margin-bottom: 8px;
+}
+.wrapper-icon-user{
+    position: relative;
 }
 .contact-form-input{
     width: 100%;
@@ -108,7 +111,9 @@
     padding-left: 34px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
+.icon-user{
+    position: absolute;
+}
 .form-textarea{
- 
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
