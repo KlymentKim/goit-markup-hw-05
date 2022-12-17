@@ -506,31 +506,44 @@
               <use href="./images/sprite.svg#icon-close"></use>
             </svg>
           </button>
-        </div>
-
         
         <div class="modal-title">
             <p class="title-text">Leave your contacts and we will call you back</p>
-            <form class="modal-win-forma" action="" name="sign up">
-
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name">
-
-              <label for="phone">Phone</label>
-              <input type="text" name="phone" id="phone">
-
-              <label for="mail">Email</label>
-              <input type="text" name="email" id="mail">
-
-              <label for="comment">Comment</label>
-              <input type="text" name="comment" id="comment">
-
-              <button type="submit">Send</button>
+        </div>
+            
+            <form class="modal-win-forma" name="sign up">
+            <div class="wrapper-field">
+                  <label class="label-form-name" for="name">Name</label>
+                <!-- <svg>
+                  <use href=""></use>
+                </svg> -->
+                <input class="contact-form-input" type="text" name="name" id="name" required="" placeholder="Name">
+            </div>
               
+            <div class="wrapper-field">
+                <label class="label-form" for="phone">Phone</label>
+                <input class="contact-form-input" type="text" name="phone" id="phone" required placeholder="Phone">
+            </div>
+              
+            <div class="wrapper-field">
+              <label class="label-form" for="mail">Email</label>
+              <input class="contact-form-input" class="contact-form-input" type="text" name="email" id="mail" required placeholder="Email">
+            </div>
+
+            <div class="wrapper-field">
+              <label class="label-form" for="comment">Comment</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <input class="contact-form-input" type="text" name="comment" id="comment" placeholder="Text input">
+            </div>
+            
+            <div class="wrapper-field-btn">
+              <input type="checkbox" name="" value="I accept the terms and conditions of the Privacy Policy">
+              <button type="submit">Send</button>
+            </div>
 
             </form>
         </div> 
-       
+      </div>
     </div>
    
     <script src="./modal.js"></script>

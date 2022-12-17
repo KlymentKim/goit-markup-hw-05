@@ -69,27 +69,47 @@
 }
 
      /* MODAL WINDOW PORTFOLIO/ */
-.modal-title{
-   display: flex;
-   flex-direction: column;
-}
+/* .position-title{
+   
+} */
+/* .modal-title{
+   position: absolute;
+} */
+
 .title-text{
-    position: absolute;
+    /* position: absolute; */
+    width: 100%;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5em;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.02em;
     color: var(--primary-color-text);
-    left: 580px;
-    top:152px;
+    margin: 72px 24px 32px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* .position-title{
-    position: relative;
-} */
-
-
 .modal-win-forma {
-    position:fixed;
-    border-radius: 4px
+   width: 100%;
+
+   border-radius: 4px
 }
+.wrapper-field{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.wrapper-field > .label-form-name{
+    margin: 16px 351px 4px 24px;
+}
+.wrapper-field > .label-form{
+    margin: 8px 24px;
+}
+.contact-form-input{
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 0 24px 26px 24px;
+}
+
