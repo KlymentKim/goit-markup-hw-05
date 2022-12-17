@@ -33,6 +33,9 @@
     rgba(0, 0, 0, 0.12), 0px 2px 1px
     rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+
+    /* відступи контенту по кроям модального вікна */
+    padding: 72px 24px;
 }
 .btn-close {
     position: absolute;
@@ -69,61 +72,28 @@
 }
 
      /* MODAL WINDOW PORTFOLIO/ */
-/* .position-title{
-   
-} */
-.modal-title{
-    min-width: 408px;
-    min-height: 579px;
+.modal-forma{
+    display: flex;
+    flex-direction: column;
 }
-
-.modal-title >.title-text{
-    position: absolute;
-    
+.title-text{
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
     color: var(--primary-color-text);
-    /* text-align: center; */
+    text-align: center;
     /* display: flex;
     justify-content: center;
     align-items: center; */
-     margin: 72px 24px 16px 24px;
-     /* top: */
-     /* left:50%; */
-     /* transform: translate(-50%, -50%); */
   
 }
-/* .modal-win-forma {
-   width: 100%;
-   height: 579px;
-} */
-.wrapper-field, .wrapper-field-btn{
-    display: flex;
-    flex-direction: column;
-    /* width: 100%; */
-}
-.wrapper-field > .label-form-name{
-     margin: 112px 0 4px 24px;
-    
-}
-.wrapper-field > .label-form{
-    margin: 8px 0 4px 24px;
-
-}
 .contact-form-input{
-    width: 360px;
-    height: 40px;
+    width: 100%;
     border-radius: 4px;
-    margin: 0 24px 26px 24px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
 .form-textarea{
-    width: 360px;
-    height: 120px;
-    border-radius: 4px; 
-    margin: 0 24px 16px 24px;
-
+ 
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
