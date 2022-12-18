@@ -506,47 +506,47 @@
               <use href="./images/sprite.svg#icon-close"></use>
             </svg>
           </button>
-        <!-- </div> -->
-        <div class="modal-title">
-            <p class="title-text">Leave your contacts and we will call you back</p>
-      
-            <form class="modal-forma" name="sign up">
+           <p class="title-text">Leave your contacts and we will call you back</p>
+           <form class="modal-forma" name="sign up">
+
                  <label class="label-form-name" for="name">
                    <span class="label-name">Name*</span>
+                    <div class="wrapper-icon-user">
+                          <input class="contact-form-input" 
+                          type="text" name="name" id="name" required 
+                          placeholder="Name" 
+                          pattern="[a-zA-Za-яА-Я]+$"
+                          minlength="2">
+                          <span class="icon-test"></span>
+                          <!-- <svg class="icon-user" width="12" heigth="12">
+                            <use href="./images/sprite.svg#icon-user_name" class="icon"></use>
+                          </svg> -->
+                    </div>
                  </label>
-                  <div class="wrapper-icon-user">
-                        <input class="contact-form-input" 
-                        type="text" name="name" id="name" required 
-                        placeholder="Name" 
-                        pattern="[a-zA-Za-яА-Я]+$"
-                        minlength="2">
-                        <svg class="icon-user" width="12" heigth="12">
-                          <use href="./images/sprite.svg#icon-user_name"></use>
+                  
+                <label class="label-form" for="phone">
+                    <span class="label-name">Phone*</span>
+                    <div class="wrapper-icon-user">
+                        <input class="contact-form-input" type="text" name="phone" id="phone" required 
+                        placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                        title="Example: 098-555-55-55">
+                        <svg class="icon-user" width="13" heigth="13">
+                          <use href="./images/sprite.svg#icon-user_phone"></use>
                         </svg>
                   </div>
-                 
-                  <label class="label-form" for="phone">
-                    <span class="label-name">Phone*</span>
-                  </label>
-                  <div class="wrapper-icon-user">
-                      <input class="contact-form-input" type="text" name="phone" id="phone" required 
-                      placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                      title="Example: 098-555-55-55">
-                      <svg class="icon-user" width="13" heigth="13">
-                        <use href="./images/sprite.svg#icon-user_phone"></use>
-                      </svg>
-                 </div>
-                
-                    <label class="label-form" for="mail">
+                </label>
+
+                <label class="label-form" for="mail">
                       <span class="label-name">Email*</span>
-                    </label>
-                  <div class="wrapper-icon-user">
-                    <input class="contact-form-input" class="contact-form-input" 
-                    type="text" name="email" id="mail" required placeholder="Email">
-                    <svg class="icon-user" width="15" heigth="12">
-                      <use href="./images/sprite.svg#icon-user_email"></use>
-                    </svg>
-                  </div>
+                    <div class="wrapper-icon-user">
+                      <input class="contact-form-input" class="contact-form-input" 
+                      type="text" name="email" id="mail" required placeholder="Email">
+                      <svg class="icon-user" width="15" heigth="12">
+                        <use href="./images/sprite.svg#icon-user_email"></use>
+                      </svg>
+                    </div>
+                </label>
+                
                 <label class="label-form" for="comment">
                   <span class="label-name">Comment</span>
                 </label>
@@ -557,7 +557,6 @@
                 <button type="submit">Send</button>
             </form>
         </div> 
-      </div>
     </div>
    
     <script src="./modal.js"></script>

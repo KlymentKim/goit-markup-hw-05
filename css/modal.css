@@ -111,8 +111,12 @@
     padding-left: 34px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
-.icon-user{
+.icon-test{
+    display: flex;
     position: absolute;
+   border: 1px solid tomato;
+   width: 18px;
+   height: 18px;
 }
 .form-textarea{
     border: 1px solid rgba(33, 33, 33, 0.2);
