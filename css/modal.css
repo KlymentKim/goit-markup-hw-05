@@ -71,6 +71,7 @@
        fill: #4D5AE5;
    }
    
+
         /* MODAL WINDOW/ */
    .modal-forma{
        display: flex;
@@ -85,21 +86,20 @@
        text-align: center;
    }
    .label-name{
-       display: block;
+       /* display: block; */
        font-size: 12px;
        line-height: 1.6;
        color: #8E8F99;
        letter-spacing: 0.01em;
-   }
-   .label-name,
-   .label-name{
        margin-bottom: 4px;
    }
    .wrapper-icon-user{
-       position: relative;
+       /* position: relative; */
    }
    .contact-form-input{
-       position: absolute;
+      
+    /* position: absolute; */
+       
        width: 100%;
        height: 40px;
        border-radius: 4px;
@@ -107,12 +107,13 @@
        margin-bottom: 8px;
        border: 1px solid rgba(33, 33, 33, 0.2);
    }
-   /* .icon-user{
-      /* display: block; */
+   .icon-test{
+      display: block;
       /* position: absolute; */
-      /* width: 12px; */
-      /* height: 12px; */
-   /* } */
+      width: 12px;
+      height: 12px;
+      background-color: blue;
+    }
    
    .form-textarea{
        border: 1px solid rgba(33, 33, 33, 0.2);
