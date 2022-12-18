@@ -110,9 +110,9 @@
     border: 1px solid rgba(77, 90, 229, 1);
 }
 .icon-user{
-      /* display: block; */
+      display: block;
       position: absolute;
-      
+      margin-right: 3px;
       top:54%;
       left: 19px;
       transform: translate(0, -54%)
