@@ -246,7 +246,6 @@
        width: 170px;
        height: 51px;
        margin:  24px 119px;
-       text-align: center;
        background: #4D5AE5;
        color: #FFFFFF;
        font-size: 16px;
@@ -255,6 +254,7 @@
        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
        border-radius: 4px;
        border: none;
+       align-self: center;
        
 }
 
