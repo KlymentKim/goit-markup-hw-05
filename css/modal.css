@@ -24,8 +24,8 @@
        left: 50%;
        transform: translate(-50%, -50%);
    
-       min-width: 408px;
-       min-height: 576px;
+       width: 408px;
+       height: 579px;
    
        background: #FCFCFC;
        box-shadow: 0px 1px 1px
