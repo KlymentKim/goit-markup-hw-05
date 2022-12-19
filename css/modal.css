@@ -211,11 +211,11 @@
 }
 .label-checkbox{
        display: flex;
+       justify-content: center;
        align-items: center;
        margin-top: 16px;
 }
 .icon-checkbox{
-   display: block;
    width: 16px;
    height: 16px;
    border: 1.25px solid #2E2F42;
