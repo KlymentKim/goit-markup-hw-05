@@ -33,6 +33,6 @@
 .card:focus .overlay {
     /* opacity:1; */
     transform: translate(0,0);
-    transition: transform 250ms var(--timing-function);
+    transition: transform 300ms var(--timing-function);
 
 }
