@@ -154,7 +154,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
+  
     padding: 8px 0 8px 16px;
 }
 .footer-form-btn{
@@ -172,11 +172,15 @@
     line-height: 1.5;
     letter-spacing: 0.06em;
     color: var(--prColor-title-social-media);
-   
+    
+    border: 1px solid transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.footer-form-btn:hover{
+    background-color: var(--color-btn-hover);
 }
 .footer-form-btn::after{
     content: '';
