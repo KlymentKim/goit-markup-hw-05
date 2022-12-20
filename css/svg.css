@@ -155,13 +155,26 @@
     margin-left:24px ;
     position:absolute;
 }
-.container-btn{
-    position: relative;
-}
+.footer-form-btn{
+    background: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    color: var(--prColor-title-social-media);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.footer-icon-btn{
-    /* display: block; */
-    position: absolute;
-    top:0;
-    right: 0;
+}
+.footer-form-btn::after{
+    content: '';
+    width: 24px;
+    height: 20px;
+    color:var(--prColor-title-social-media);
+    background-image: url('../images/icon-send.svg');
+    margin-left: 16px;
 }
