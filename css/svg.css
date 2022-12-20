@@ -152,4 +152,16 @@
 .footer-form-btn{
     width: 168px;
     height: 40px;
+    margin-left:24px ;
+    position:absolute;
+}
+.container-btn{
+    position: relative;
+}
+
+.footer-icon-btn{
+    /* display: block; */
+    position: absolute;
+    top:0;
+    right: 0;
 }
