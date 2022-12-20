@@ -102,7 +102,11 @@
 }
 
         /* Social media */
-.title-social-media{
+.footer-wrapper-2{
+    margin-right: 80px;
+}
+.title-social-media,
+.link-subscribe{
     margin-bottom: 16px;
     color: var(--prColor-title-social-media);
 
@@ -131,4 +135,21 @@
 }
 .social-link:hover {
     background-color:var(--prBg-color-footer-social-media);
+}
+        /*--------- Subscribe  ----------*/
+
+.link-subscribe{
+    display: flex;
+}
+.footer-form{
+    display: flex;
+}
+.form-input{
+    background-color: transparent;
+    width: 264px;
+    height: 40px;
+}
+.footer-form-btn{
+    width: 168px;
+    height: 40px;
 }
