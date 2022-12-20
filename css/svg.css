@@ -157,6 +157,10 @@
   
     padding: 8px 0 8px 16px;
 }
+.form-input:focus{
+    outline: none;
+    border: 1px solid rgba(77, 90, 229, 1);
+}
 .footer-form-btn{
     width: 168px;
     height: 40px;
